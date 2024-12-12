@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(255, 242, 244);
+    color: rgb(77, 155, 190);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    margin: 5%;
+}
+a{
+    font-size: 150%;
+}
+h1{
+    background-color: pink;
+    animation-name: cc;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    width: 50%;
+    margin: auto;
+}
+@keyframes cc {
+    0% {background-color: pink;}
+    25%{background-color: cyan;}
+    50%{background-color: gold;}
+    75%{background-color: powderblue;}
+    100%{background-color: pink;}
+}
+div.link{
+    background-color: beige;
+    line-height: 200%;
+    width: 50%;
+    margin: auto;
+}
+#links{
+    font-size: 200%;
+}
+
+#d2{
+    position: fixed;
+    bottom: 10px;   
+    left: 20px;
+}
+#d3{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;   
+}
+#tf{
+    left: 30px;
+}
+#pf{
+    right: 30px;
+}
