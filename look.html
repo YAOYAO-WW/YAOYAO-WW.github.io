@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>Look!</title>
+    <style>
+        #d1{
+            margin-top: 50px;
+        }
+        textarea{
+            display: none;
+        }
+        button{
+            visibility: visible;
+        }
+        #r,#btn0{
+            display: none;
+        }
+        img{
+            display: none;
+        }
+        br{
+            padding: 20px;
+        }
+        
+    </style>
+    <script src="look.js">
+    </script>
+</head>
+<body>
+    <div id="d1">
+    <p>What do you want to do? Select in the drop down.</p>
+    <select id="drop">
+        <option value="bmi">Calculate BMI</option>
+        <option value="pill">Pill calculator</option>
+        <option value="random">Random number</option>
+        <option value="mpg">MPG to L/100km</option>
+        <option value="fake">See a fake person</option>
+        <option value="fish">Wooden fish</option>
+    </select>
+    
+    <button id="btn" onclick="f()">Confirm</button>
+    
+    <br>
+    <label id="l1" class="a"></label><textarea id="in1" class="a"></textarea>
+
+    <img id="pic" class="a">
+
+    <br>
+    <label id="l2" class="a"></label><textarea id="in2" class="a"></textarea>
+    <br>
+    <button class="a" id="btn0">Do it</button>
+    
+    <p id="r" class="a"></p>
+
+</div>
+</body>
