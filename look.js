@@ -17,6 +17,30 @@ function f(){
     if(sel ==="pill") pill();
     b = true;
 }
+function dropReset(){
+    obj = document.getElementsByClassName("a");
+    for(var i = 0;i<obj.length;i++){
+        obj[i].style.display = "none";
+    }
+    document.getElementById("r").style.display = "none";
+    document.getElementById("pic").style.display = "none";
+    document.getElementById("in1").style.display = "none";
+    document.getElementById("in2").style.display = "none";
+    document.getElementById("btn0").style.display = "none";
+    document.getElementById("l1").style.display = "none";
+    document.getElementById("l2").style.display = "none";
+    document.getElementById("l1").innerHTML = "";
+    document.getElementById("l2").innerHTML = "";
+    document.getElementById("r").innerHTML = "";
+    document.getElementById("btn0").setAttribute("onclick","");
+    document.getElementById("in1").setAttribute("onkeyup","");
+    document.getElementById("in1").value = "";
+    document.getElementById("in2").value = "";
+    document.getElementById("pic").style.width = "600px";
+    document.getElementById("pic").style.marginBottom = "0px";
+    
+
+}
 function bmi(){
     
     document.getElementById("in1").style.display = "block";
